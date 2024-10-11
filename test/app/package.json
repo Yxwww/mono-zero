@@ -1,0 +1,6 @@
+{
+  "name": "my-fancy-app",
+  "dependencies": {
+    "my-sdk": "file:.yalc/my-sdk"
+  }
+}
