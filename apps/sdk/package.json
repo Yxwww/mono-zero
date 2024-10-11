@@ -7,7 +7,7 @@
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "node ./prepublish.js",
-    "postpublish": "grhh"
+    "postpack": "git reset --hard"
   },
   "version": "0.0.0"
 }
