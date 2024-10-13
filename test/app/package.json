@@ -3,6 +3,9 @@
   "dependencies": {
     "my-sdk": "file:.yalc/my-sdk"
   },
+  "scripts": {
+    "build": "esbuild ./index.ts --bundle --outfile=dist/index.js"
+  },
   "devDependencies": {
     "esbuild": "^0.24.0"
   }
